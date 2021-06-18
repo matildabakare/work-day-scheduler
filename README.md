@@ -15,7 +15,7 @@ An applicatuon that allows the user to add important events to a daily planner s
 https://matildabakare.github.io/work-day-scheduler/
 
 ## Screenshots
-![image](assets/images/website-image.png)
+![image](./assets/images/website-image.png)
 
 ## Contribution
 Made by Matilda Bakare
