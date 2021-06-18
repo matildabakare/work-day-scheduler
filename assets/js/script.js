@@ -7,32 +7,39 @@ var loadTasks = function() {
     localStorageArr = JSON.parse(localStorage.getItem("tasks"));
     console.log(localStorageArr);
 
-    firstValue = localStorageArr[0];
-    $('.one').val(firstValue);
+    if (!localStorageArr) {
+        localStorageArr = [];
+    }
 
-    secondValue = localStorageArr[1];
-    $('.two').val(secondValue);
+    else {
+        firstValue = localStorageArr[0];
+        $('.one').val(firstValue);
 
-    thirdValue = localStorageArr[2];
-    $('.three').val(thirdValue);
+        secondValue = localStorageArr[1];
+        $('.two').val(secondValue);
 
-    fourthValue = localStorageArr[3];
-    $('.four').val(fourthValue);
+        thirdValue = localStorageArr[2];
+        $('.three').val(thirdValue);
 
-    fifthValue = localStorageArr[4];
-    $('.five').val(fifthValue);
+        fourthValue = localStorageArr[3];
+        $('.four').val(fourthValue);
 
-    sixthValue = localStorageArr[5];
-    $('.six').val(sixthValue);
+        fifthValue = localStorageArr[4];
+        $('.five').val(fifthValue);
 
-    seventhValue = localStorageArr[6];
-    $('.seven').val(seventhValue);
-    
-    eighthValue = localStorageArr[7];
-    $('.eight').val(eighthValue);
+        sixthValue = localStorageArr[5];
+        $('.six').val(sixthValue);
 
-    ninethValue = localStorageArr[8];
-    $('.nine').val(ninethValue);
+        seventhValue = localStorageArr[6];
+        $('.seven').val(seventhValue);
+        
+        eighthValue = localStorageArr[7];
+        $('.eight').val(eighthValue);
+
+        ninethValue = localStorageArr[8];
+        $('.nine').val(ninethValue);
+
+    }
 
 };
 
