@@ -83,8 +83,13 @@ textarea{
   border-style: hidden;
 } 
 
+.red {
+  background-color: rgba(235, 80, 80, 0.685);
+}
 
-
+.green {
+  background-color: rgba(83, 235, 134, 0.685);
+}
 /* .timeblocks {
   border-top-style: solid;= */
 
