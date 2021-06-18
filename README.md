@@ -16,7 +16,7 @@ https://matildabakare.github.io/work-day-scheduler/
 
 ## Screenshots
 ![image] (assets/images/website-image.png)
-
+<img src="assets/images/website-image.png">
 
 ## Contribution
 Made by Matilda Bakare
